@@ -1,0 +1,356 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Using a BSD system derived from CSRG sources */
+#undef CSRG_BASED
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
+
+/* The gettext domain */
+#undef GETTEXT_PACKAGE
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the `bind_textdomain_codeset' function. */
+#undef HAVE_BIND_TEXTDOMAIN_CODESET
+
+/* Define to 1 if you have the `dcgettext' function. */
+#undef HAVE_DCGETTEXT
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* Define to 1 if you have the `fork' function. */
+#undef HAVE_FORK
+
+/* Define to 1 if you have the `getaddrinfo' function. */
+#undef HAVE_GETADDRINFO
+
+/* Define to 1 if you have the `gethostbyname' function. */
+#undef HAVE_GETHOSTBYNAME
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define if function attributes a la GCC 2.5 and higher are available. */
+#undef HAVE_GNUC25_ATTRIB
+
+/* Define if constant functions a la GCC 2.5 and higher are available. */
+#undef HAVE_GNUC25_CONST
+
+/* Define if nonreturning functions a la GCC 2.5 and higher are available. */
+#undef HAVE_GNUC25_NORETURN
+
+/* Define if packing of struct members a la GCC 2.5 and higher is available.
+   */
+#undef HAVE_GNUC25_PACKED
+
+/* Define if unused variables la GCC 2.5 and higher are available. */
+#undef HAVE_GNUC25_UNUSED
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `isascii' function. */
+#undef HAVE_ISASCII
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#undef HAVE_LC_MESSAGES
+
+/* Define to 1 if you have the `cposix' library (-lcposix). */
+#undef HAVE_LIBCPOSIX
+
+/* Define to 1 if you have the `inet' library (-linet). */
+#undef HAVE_LIBINET
+
+/* Define to 1 if you have the <libintl.h> header file. */
+#undef HAVE_LIBINTL_H
+
+/* Define to 1 if you have the `magic' library (-lmagic). */
+#undef HAVE_LIBMAGIC
+
+/* Define to 1 if you have the `net' library (-lnet). */
+#undef HAVE_LIBNET
+
+/* Define to 1 if you have the `nsl' library (-lnsl). */
+#undef HAVE_LIBNSL
+
+/* Define to 1 if you have the `resolv' library (-lresolv). */
+#undef HAVE_LIBRESOLV
+
+/* Define to 1 if you have the `socket' library (-lsocket). */
+#undef HAVE_LIBSOCKET
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if your system has a GNU libc compatible `malloc' function, and
+   to 0 otherwise. */
+#undef HAVE_MALLOC
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the `memrchr' function. */
+#undef HAVE_MEMRCHR
+
+/* Define to 1 if you have the `memset' function. */
+#undef HAVE_MEMSET
+
+/* Define to 1 if you have the `mkdir' function. */
+#undef HAVE_MKDIR
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#undef HAVE_NETDB_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the `setenv' function. */
+#undef HAVE_SETENV
+
+/* Define to 1 if you have the `snprintf' function. */
+#undef HAVE_SNPRINTF
+
+/* Define to 1 if you have the `socket' function. */
+#undef HAVE_SOCKET
+
+/* Define to 1 if `stat' has the bug that it succeeds when given the
+   zero-length file name argument. */
+#undef HAVE_STAT_EMPTY_STRING_BUG
+
+/* Define to 1 if stdbool.h conforms to C99. */
+#undef HAVE_STDBOOL_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the `strchr' function. */
+#undef HAVE_STRCHR
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `strrchr' function. */
+#undef HAVE_STRRCHR
+
+/* Define to 1 if you have the `strstr' function. */
+#undef HAVE_STRSTR
+
+/* Define to 1 if you have the <sys/ioctl.h> header file. */
+#undef HAVE_SYS_IOCTL_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have <sys/wait.h> that is POSIX.1 compatible. */
+#undef HAVE_SYS_WAIT_H
+
+/* Define to 1 if you have the <termios.h> header file. */
+#undef HAVE_TERMIOS_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the <utmp.h> header file. */
+#undef HAVE_UTMP_H
+
+/* Define to 1 if you have the `vfork' function. */
+#undef HAVE_VFORK
+
+/* Define to 1 if you have the <vfork.h> header file. */
+#undef HAVE_VFORK_H
+
+/* Define to 1 if you have the `vsnprintf' function. */
+#undef HAVE_VSNPRINTF
+
+/* Define to 1 if `fork' works. */
+#undef HAVE_WORKING_FORK
+
+/* Define to 1 if `vfork' works. */
+#undef HAVE_WORKING_VFORK
+
+/* Define to 1 if the system has the type `_Bool'. */
+#undef HAVE__BOOL
+
+/* Define to 1 if `lstat' dereferences a symlink specified with a trailing
+   slash. */
+#undef LSTAT_FOLLOWS_SLASHED_SYMLINK
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+#undef PREFIX
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+#undef USE_DEBUG
+
+/* Enable docklet / system tray support */
+#undef USE_DOCKLET
+
+/* Enable external SSH/Telnet support */
+#undef USE_EXTERNAL
+
+/* Enable external image viewer */
+#undef USE_IMAGEVIEW
+
+/* Enable IP location lookup */
+#undef USE_IPLOOKUP
+
+#undef USE_IPV6
+
+/* Enable libnotify notifier support */
+#undef USE_LIBNOTIFY
+
+#undef USE_MMX
+
+/* Enable mouse click and wheel support */
+#undef USE_MOUSE
+
+/* Enable NancyBot support */
+#undef USE_NANCY
+
+/* Enable popup notifier support */
+#undef USE_NOTIFIER
+
+#undef USE_PLUGIN
+
+/* Enable proxy support */
+#undef USE_PROXY
+
+#undef USE_SCRIPT
+
+#undef USE_SIGACTION
+
+/* Enable wget support */
+#undef USE_WGET
+
+#undef USING_FREEBSD
+
+#undef USING_LINUX
+
+/* The version of pcmanx_gtk2 */
+#undef VERSION
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif
+
+/* Define to rpl_malloc if the replacement function should be used. */
+#undef malloc
+
+/* Define to `int' if <sys/types.h> does not define. */
+#undef pid_t
+
+/* Define to `unsigned int' if <sys/types.h> does not define. */
+#undef size_t
+
+#undef socklen_t
+
+/* Define as `fork' if `vfork' does not work. */
+#undef vfork
+
+/* GNU C attributes. */
+#ifndef FUNCATTR
+#ifdef HAVE_GNUC25_ATTRIB
+#define FUNCATTR(x) __attribute__(x)
+#else
+#define FUNCATTR(x)
+#endif
+#endif
+
+/* GNU C constant functions, or null. */
+#ifndef ATTRCONST
+#ifdef HAVE_GNUC25_CONST
+#define ATTRCONST const
+#else
+#define ATTRCONST
+#endif
+#endif
+#ifndef CONSTANT
+#define CONSTANT FUNCATTR((ATTRCONST))
+#endif
+
+/* GNU C nonreturning functions, or null. */
+#ifndef ATTRNORETURN
+#ifdef HAVE_GNUC25_NORETURN
+#define ATTRNORETURN noreturn
+#else /* ! HAVE_GNUC25_NORETURN */
+#define ATTRNORETURN
+#endif /* HAVE_GNUC25_NORETURN */
+#endif /* ATTRNORETURN */
+#ifndef NONRETURNING
+#define NONRETURNING FUNCATTR((ATTRNORETURN))
+#endif /* NONRETURNING */
+
+/* GNU C constant functions, or null. */
+#ifndef ATTRPACKED
+#ifdef HAVE_GNUC25_PACKED
+#define ATTRPACKED packed
+#else
+#define ATTRPACKED
+#endif
+#endif
+#ifndef PACKED
+#define PACKED FUNCATTR((ATTRPACKED))
+#endif
+
+/* GNU C unused functions, or null. */
+#ifndef ATTRUNUSED
+#ifdef HAVE_GNUC25_UNUSED
+#define ATTRUNUSED unused
+#else
+#define ATTRUNUSED
+#endif
+#endif
+#ifndef UNUSED
+#define UNUSED FUNCATTR((ATTRUNUSED))
+#endif

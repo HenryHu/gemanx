@@ -1,0 +1,42 @@
+2009-11-05 Ruizhe LI <liruizhe@gmail.com>
+	* src/mainframe.cpp (OnFont, OnFontEn),
+	  src/core/termviem.cpp (RecalcCharSize):
+	    Fixed a bug in setting font size.
+
+2009-09-28 Ruizhe LI <liruizhe@gmail.com>
+	* src/view/telnetview.cpp (isImageURL):
+	    Use libmagic to determine the type of file to preview.
+	    This is the preparation of a more powerful mode of preview.
+	* 0.1.0.1 released.
+
+2009-09-10 Ruizhe LI <liruizhe@gmail.com>
+	* src/core/termsel.cpp (TermSel::GetEnd):
+	    Fix a bug which may make GeMan X crash when user select text.
+
+2009-09-08 Ruizhe LI <liruizhe@gmail.com>
+	* 0.1.0 released.
+
+2009-06-06 Ruizhe LI <liruizhe@gmail.com>
+	* Now logo: Bow to SLY.
+
+2009-05-21 Ruizhe LI  <liruizhe@gmail.com>
+	* New Feature: User can specify font size now, and font size would
+	scale with the changing of window size automatically.
+
+2009-04-30 Henry Hu <henry.hu.sh@gmail.com>
+	* Finished:
+	Add SetTooltip() to CWidget class. Can be used to set tooltips.
+	Show tooltip for IP lookup result.
+	Optional libnotify-based notification for showing IP lookup result.
+	Remove advertisement from IP lookup result.
+
+2009-04-30  Ruizhe LI  <liruizhe@gmail.com>
+	* Finished:
+	More flexible for SSH protocol.
+	New Chinese charset tables from Nally/Welly.
+	A simple image viewer.
+	A faster implementation for downloading article.
+	Fixed some bugs of copying with color between BIG5 BBS and GB BBS.
+
+2009-04-22  Ruizhe LI  <liruizhe@gmail.com>
+	* Branched from pcmanx.

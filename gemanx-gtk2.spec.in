@@ -1,0 +1,59 @@
+%define ver @VERSION@
+%define rel 1
+
+Name:      gemanx-gtk2
+Version:   %{ver}
+Release:   %{rel}%{?dist}
+Summary:   user-friendly telnet client designed for BBS browsing.
+
+Group:     Applications/Internet
+License:   GPL
+Url:       http://gemanx.googlecode.com/
+Source:    http://gemanx.googlecode.com/files/%{name}-%{version}.tar.gz
+Vendor:    GeMan X GTK+ 2 project
+Packager:  GeMan X <liruizhe@gmail.com>
+
+BuildRoot:        %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRequires:    gettext, pkgconfig, gtk2-devel >= 2.4.0, desktop-file-utils
+Requires:         gtk2
+Requires(post):   desktop-file-utils
+Requires(postun): desktop-file-utils
+
+%{?!DEBUGINFO:     %define DEBUGINFO    1}
+%if !%{DEBUGINFO}
+%define debug_package %{nil}
+%endif
+
+%description
+GeMan X is a term BBS client beyond PCMan X.
+More features was added.
+
+%prep
+%setup -q
+
+%build
+%configure \
+%if %{DEBUGINFO}
+	--enable-debug \
+%endif
+;
+make %{?_smp_mflags}
+
+%install
+rm -rf $RPM_BUILD_ROOT
+%makeinstall
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root,-)
+%doc ABOUT-NLS AUTHORS COPYING INSTALL NEWS README TODO
+%{_bindir}/gemanx
+%{_libdir}/libgemanx*
+%{_datadir}/applications/gemanx.desktop
+%{_datadir}/gemanx/
+%{_datadir}/pixmaps/gemanx.png
+%{_datadir}/locale/
+
+%changelog

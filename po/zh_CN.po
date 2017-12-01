@@ -1,0 +1,646 @@
+# translation of zh_CN.po to
+# PCMan <pcman.tw@gmail.com>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: zh_CN\n"
+"Report-Msgid-Bugs-To: http://groups.google.com/group/PCManX\n"
+"POT-Creation-Date: 2012-12-03 15:37+0800\n"
+"PO-Revision-Date: 2006-03-12 22:16+0800\n"
+"Last-Translator: Jason Xia <jasonxh@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/sitelistdlg.cpp:33 ../src/mainframe.cpp:321
+msgid "Site List"
+msgstr "BBS 站点列表"
+
+#: ../src/sitelistdlg.cpp:106
+msgid "C_onnect"
+msgstr "连接(_O)"
+
+#: ../src/sitelistdlg.cpp:217
+#, c-format
+msgid "Keyword \"%s\" not found!"
+msgstr "找不到关键字 \"%s\"！"
+
+#: ../src/mainframe.cpp:320
+msgid "_Connect"
+msgstr "连接(_C)"
+
+#: ../src/mainframe.cpp:321
+msgid "_Site List"
+msgstr "BBS 站点列表(_S)"
+
+#: ../src/mainframe.cpp:323
+msgid "_Update BBS List"
+msgstr "更新 BBS 列表(_U)"
+
+#: ../src/mainframe.cpp:323
+msgid "Update BBS List"
+msgstr "更新 BBS 列表"
+
+#: ../src/mainframe.cpp:325
+msgid "_New Connection"
+msgstr "开启新连接(_N)"
+
+#: ../src/mainframe.cpp:325
+msgid "New Connection"
+msgstr "新连接"
+
+#: ../src/mainframe.cpp:326 ../src/mainframe.cpp:327
+msgid "_Reconnect"
+msgstr "重新连接(_R)"
+
+#: ../src/mainframe.cpp:326 ../src/mainframe.cpp:327 ../src/mainframe.cpp:1270
+msgid "Reconnect"
+msgstr "重新连接"
+
+#: ../src/mainframe.cpp:328 ../src/mainframe.cpp:329
+msgid "_Close Connection"
+msgstr "关闭连接分页(_C)"
+
+#: ../src/mainframe.cpp:328 ../src/mainframe.cpp:329
+msgid "Close Connection"
+msgstr "关闭连接分页"
+
+#: ../src/mainframe.cpp:330 ../src/mainframe.cpp:331
+msgid "Ne_xt Page"
+msgstr "切换到下一个分页(_X)"
+
+#: ../src/mainframe.cpp:330 ../src/mainframe.cpp:331
+msgid "Next Page"
+msgstr "切换到下一个分页"
+
+#: ../src/mainframe.cpp:332 ../src/mainframe.cpp:333
+msgid "_Previous Page"
+msgstr "切换到上一个分页(_P)"
+
+#: ../src/mainframe.cpp:332 ../src/mainframe.cpp:333
+msgid "Previous Page"
+msgstr "切换到上一个分页"
+
+#: ../src/mainframe.cpp:334
+msgid "_First Page"
+msgstr "切换到第一个分页(_F)"
+
+#: ../src/mainframe.cpp:334
+msgid "First Page"
+msgstr "切换到第一个分页"
+
+#: ../src/mainframe.cpp:335
+msgid "_Last Page"
+msgstr "切换到最后一个分页(_L)"
+
+#: ../src/mainframe.cpp:335
+msgid "Last Page"
+msgstr "切换到最后一个分页"
+
+#: ../src/mainframe.cpp:336
+msgid "_Jump to"
+msgstr "切换到(_J)"
+
+#: ../src/mainframe.cpp:337
+msgid "_Quit"
+msgstr "离开(_Q)"
+
+#: ../src/mainframe.cpp:337
+msgid "Quit"
+msgstr "离开"
+
+#: ../src/mainframe.cpp:338
+msgid "_Edit"
+msgstr "编辑(_E)"
+
+#: ../src/mainframe.cpp:339
+msgid "_Copy"
+msgstr "复制(_C)"
+
+#: ../src/mainframe.cpp:339
+msgid "Copy"
+msgstr "复制"
+
+#: ../src/mainframe.cpp:340
+msgid "Copy with A_NSI Color"
+msgstr "复制(包含ANSI彩色)(_N)"
+
+#: ../src/mainframe.cpp:340
+msgid "Copy with ANSI Color"
+msgstr "复制(包含ANSI彩色)"
+
+#: ../src/mainframe.cpp:341
+msgid "_Paste"
+msgstr "粘贴(_P)"
+
+#: ../src/mainframe.cpp:341
+msgid "Paste"
+msgstr "粘贴"
+
+#: ../src/mainframe.cpp:342
+msgid "Paste from Clipboard"
+msgstr "从剪切板粘贴"
+
+#: ../src/mainframe.cpp:343
+msgid "Paste with _ANSI Color"
+msgstr "粘贴(包含ANSI彩色)(_A)"
+
+#: ../src/mainframe.cpp:344
+msgid "_Download Article"
+msgstr "全文下载(_D)"
+
+#: ../src/mainframe.cpp:344 ../src/downarticledlg.cpp:34
+msgid "Download Article"
+msgstr "全文下载"
+
+#: ../src/mainframe.cpp:345
+msgid "Select A_ll"
+msgstr "全部选取(_L)"
+
+#: ../src/mainframe.cpp:346
+msgid "_Emoticons"
+msgstr "表情符号(_E)"
+
+#: ../src/mainframe.cpp:347
+msgid "_Preference"
+msgstr "个人偏好设置(_P)"
+
+#: ../src/mainframe.cpp:347 ../src/prefdlg.cpp:30
+msgid "Preference"
+msgstr "个人偏好设置"
+
+#: ../src/mainframe.cpp:348
+msgid "F_avorites"
+msgstr "收藏夹(_A)"
+
+#: ../src/mainframe.cpp:349 ../src/mainframe.cpp:1483
+msgid "_Add to Favorites"
+msgstr "加入到收藏夹(_A)"
+
+#: ../src/mainframe.cpp:349 ../src/mainframe.cpp:1271
+msgid "Add to Favorites"
+msgstr "加入到收藏夹"
+
+#: ../src/mainframe.cpp:350 ../src/mainframe.cpp:1491
+msgid "_Edit Favorites"
+msgstr "编辑收藏夹(_E)"
+
+#: ../src/mainframe.cpp:351
+msgid "_View"
+msgstr "查看(_V)"
+
+#: ../src/mainframe.cpp:352
+msgid "_Font"
+msgstr "字型 (_F)"
+
+#: ../src/mainframe.cpp:353
+msgid "_ASCII Font"
+msgstr "ASCII 字型 (_A)"
+
+#: ../src/mainframe.cpp:355
+msgid "Bot (Current Connection)"
+msgstr "机器人(当前的连接)"
+
+#: ../src/mainframe.cpp:356
+msgid "Bot (All Opened Connections)"
+msgstr "机器人(所有打开的连接)"
+
+#: ../src/mainframe.cpp:358
+msgid "_Help"
+msgstr "帮助(_H)"
+
+#: ../src/mainframe.cpp:359
+msgid "About"
+msgstr "关于"
+
+#. Fullscreen Mode
+#: ../src/mainframe.cpp:361
+msgid "F_ullscreen Mode"
+msgstr "全屏模式(_U)"
+
+#. Simple Mode
+#: ../src/mainframe.cpp:363
+msgid "_Simple Mode"
+msgstr "简单模式 (_S)"
+
+#. Show/Hide Main Window
+#: ../src/mainframe.cpp:370
+msgid "Show _Main Window"
+msgstr "显示主窗口(_M)"
+
+#: ../src/mainframe.cpp:377 ../src/mainframe.cpp:383
+msgid "Disable Bot"
+msgstr "禁用机器人"
+
+#: ../src/mainframe.cpp:378 ../src/mainframe.cpp:384
+msgid "Nancy Bot"
+msgstr "机器人 Nancy"
+
+#: ../src/mainframe.cpp:565
+msgid "Page"
+msgstr "分页"
+
+#: ../src/mainframe.cpp:588
+msgid "A_ddress:"
+msgstr "地址(_D)："
+
+#: ../src/mainframe.cpp:592
+msgid "Type URL here, then hit \"Enter\""
+msgstr "在此输入地址，然后按下\"Enter\""
+
+#: ../src/mainframe.cpp:651
+msgid "Connect"
+msgstr "连接"
+
+#: ../src/mainframe.cpp:651
+#, fuzzy
+msgid ""
+"Host IP Address:\n"
+"Append port number to IP with a separating colon if it's not 23.\n"
+"\"ssh://\" for SSH protocol, \"ssh1://\" for SSH v1 protocol only."
+msgstr ""
+"主机 IP 地址：\n"
+"如果连接端口不是 23，请将连接端口号码接在 IP 后面, 并用冒号隔开。"
+"ssh协议请使用\"ssh://\", ssh v1协议请使用\"ssh1://\"。"
+
+#: ../src/mainframe.cpp:683 ../src/mainframe.cpp:760
+msgid "Font"
+msgstr "字型"
+
+#: ../src/mainframe.cpp:688 ../src/mainframe.cpp:765
+msgid "Apply to all opened pages"
+msgstr "应用于所有打开的分页"
+
+#: ../src/mainframe.cpp:902
+msgid "Untitled document"
+msgstr "未命名文档"
+
+#: ../src/mainframe.cpp:937
+msgid ""
+"Hong Jen Yee (Main developer) <pcman.tw@gmail.com>\n"
+"Jim Huang (Developer) <jserv.tw@gmail.com>\n"
+"Kanru Chen (Developer) <koster@debian.org.tw>\n"
+"Chia I Wu (Developer) <b90201047@ntu.edu.tw>\n"
+"Shih-Yuan Lee (Developer) <fourdollars@gmail.com>\n"
+"Youchen Lee (Developer) <copyleft@utcr.org>\n"
+"Emfox Zhou (Developer) <emfoxzhou@gmail.com>\n"
+"Jason Xia (Developer) <jasonxh@gmail.com>\n"
+"Haifeng Chen (Chinese Simplified (zh_CN) Translation) <optical.dlz@gmail.com>"
+msgstr ""
+"洪任谕 Hong Jen Yee (主要开发者) <pcman.tw@gmail.com>\n"
+"黄敬群 Jim Huang (开发者) <jserv.tw@gmail.com>\n"
+"陈侃如 Kanru Chen (开发者) <koster@debian.org.tw>\n"
+"吴佳一 Chia I Wu (开发者) <b90201047@ntu.edu.tw>\n"
+"李世元 Shih-Yuan Lee (开发者) <fourdollars@gmail.com>\n"
+"李宥辰 Youchen Lee (开发者) <copyleft@utcr.org>\n"
+"周  玮 Emfox Zhou (开发者) <emfoxzhou@gmail.com>\n"
+"夏  昊 Jason Xia (开发者) <jasonxh@gmail.com>\n"
+"陈海峰 Haifeng Chen (简体中文(zh_CN)翻译) <optical.dlz@gmail.com>"
+
+#: ../src/mainframe.cpp:948
+msgid ""
+"Ruizhe Li (Developer) <liruizhe@gmail.com>\n"
+"Henry Hu (Developer) <henry.hu.sh@gmail.com>"
+msgstr ""
+"李锐喆 Ruizhe Li (主要开发者) <liruizhe@gmail.com>\n"
+"胡刚 Henry Hu (开发者) <henry.hu.sh@gmail.com>"
+
+#: ../src/mainframe.cpp:955
+#, c-format
+msgid ""
+"<b>GeMan X %s</b>\n"
+"A free BBS client developed with GTK+ 2.x\n"
+"\n"
+"License: GNU Genral Public License\n"
+"Project Homepage: http://gemanx.googlecode.com/\n"
+"Bug Report: %s\n"
+"\n"
+"<b>Authors</b>:\n"
+"%s\n"
+"\n"
+"<b>Contributors to PCMan X</b>:\n"
+"%s\n"
+"\n"
+msgstr ""
+"<b>GeMan X %s</b>\n"
+"用 GTK+ 2.x 开发的自由 BBS 连接软件\n"
+"\n"
+"授权方式：GNU Genral Public License\n"
+"项目首页：http://gemanx.googlecode.com/\n"
+"问题回报：%s\n"
+"\n"
+"<b>软件作者</b>：\n"
+"%s\n"
+"\n"
+"<b>PCMan X的作者</b>：\n"
+"%s\n"
+"\n"
+
+#: ../src/mainframe.cpp:1022
+msgid "Update BBS List Success!"
+msgstr "更新 BBS 列表成功！"
+
+#: ../src/mainframe.cpp:1023
+msgid "Update BBS List Fault."
+msgstr "更新 BBS 列表失败。"
+
+#: ../src/mainframe.cpp:1056
+msgid "Close Connection?"
+msgstr "确定关闭连接分页?"
+
+#. set menu items
+#: ../src/mainframe.cpp:1269
+msgid "Close"
+msgstr "关闭"
+
+#: ../src/mainframe.cpp:1392
+msgid "Quit GeMan X ?"
+msgstr "离开 GeMan X ?"
+
+#: ../src/mainframe.cpp:1404
+#, c-format
+msgid ""
+"Function not implemented yet!\n"
+"Debug: %s"
+msgstr ""
+"功能尚未完成！\n"
+"侦错讯息： %s"
+
+#: ../src/mainframe.cpp:1417
+msgid "Add To Favorites"
+msgstr "加入到收藏夹"
+
+#: ../src/mainframe.cpp:1530
+#, c-format
+msgid "Time Elapsed : %02d : %02d : %02d"
+msgstr "经过的时间：%02d : %02d : %02d"
+
+#: ../src/mainframe.cpp:1747
+msgid "Nancy Bot is enabled"
+msgstr "机器人 Nancy 已经启动"
+
+#: ../src/mainframe.cpp:1754
+msgid "Nancy Bot is disabled"
+msgstr "机器人 Nancy 已经禁用"
+
+#: ../src/sitedlg.cpp:38 ../src/prefdlg.cpp:40
+msgid "Site Settings"
+msgstr "站点设置"
+
+#: ../src/sitedlg.cpp:39
+msgid "Auto Login"
+msgstr "自动登录"
+
+#: ../src/editfavdlg.cpp:32
+msgid "Edit Favorites"
+msgstr "编辑收藏夹"
+
+#: ../src/editfavdlg.cpp:137
+msgid "New Site"
+msgstr "新站点"
+
+#: ../src/editfavdlg.cpp:138
+msgid "Add New Site Settings"
+msgstr "新增站点设置"
+
+#: ../src/editfavdlg.cpp:155
+msgid "Edit Site Settings"
+msgstr "编辑站点设置"
+
+#: ../src/sitepage.cpp:76
+msgid "Name: "
+msgstr "站点名称："
+
+#: ../src/sitepage.cpp:85
+msgid "Address: "
+msgstr "站点地址："
+
+#: ../src/sitepage.cpp:99
+msgid "Reconnect when disconnected in specified duration : "
+msgstr "如果在指定秒数内被断线则重连："
+
+#: ../src/sitepage.cpp:108 ../src/sitepage.cpp:144
+msgid "Sec (0 = Disabled)"
+msgstr "秒 (0 = 关闭不用)"
+
+#: ../src/sitepage.cpp:117
+msgid "Reconnect interval : "
+msgstr "重连间隔："
+
+#: ../src/sitepage.cpp:126
+msgid "Sec"
+msgstr "秒"
+
+#: ../src/sitepage.cpp:135
+msgid "Anti-Idle: Send specified string to server when idling for  "
+msgstr "防发呆：每隔指定秒数对主机送出防发呆字符串"
+
+#: ../src/sitepage.cpp:153
+msgid "Anti-Idle string to be sent :"
+msgstr "要送出的防发呆字符串："
+
+#: ../src/sitepage.cpp:166
+msgid "Terminal Screen Size"
+msgstr "终端机屏幕大小"
+
+#: ../src/sitepage.cpp:174
+msgid "Line: "
+msgstr "行："
+
+#: ../src/sitepage.cpp:183
+msgid "Col: "
+msgstr "列："
+
+#: ../src/sitepage.cpp:197
+msgid "Terminal Type: "
+msgstr "终端类型："
+
+#: ../src/sitepage.cpp:206
+msgid "Convert ESC in ANSI color code to  "
+msgstr "将色彩控制码的 ESC 转换成"
+
+#: ../src/sitepage.cpp:220
+msgid "Wrap pasted text when there's too many characters per line :"
+msgstr "贴上文字每行超过指定字数则自动换行："
+
+#: ../src/sitepage.cpp:229
+msgid "(0 = Disabled)"
+msgstr "(0 = 关闭不用)"
+
+#: ../src/sitepage.cpp:238
+msgid "Site Encoding: "
+msgstr "站点编码:"
+
+#: ../src/sitepage.cpp:247
+msgid "Detect double-byte characters on typing"
+msgstr "输入时检测双字节字符"
+
+#: ../src/sitepage.cpp:251
+msgid "Connect automatically on program startup"
+msgstr "程序启动时自动连接"
+
+#: ../src/sitepage.cpp:260
+msgid "Center terminal screen vertically"
+msgstr "让屏幕垂直居中对齐。"
+
+#: ../src/sitepage.cpp:264
+msgid "Center terminal screen horizontally"
+msgstr "让屏幕水平居中对齐。"
+
+#: ../src/prefdlg.cpp:39
+msgid "General"
+msgstr "常规"
+
+#: ../src/generalprefpage.cpp:47
+msgid "Confirm before closing connected connections"
+msgstr "关闭连接中的连接前先询问"
+
+#: ../src/generalprefpage.cpp:51
+msgid "Confirm before exiting the program if there are still connections"
+msgstr "结束程序前若还有连接中的连接先询问"
+
+#: ../src/generalprefpage.cpp:55
+msgid "Cancel selection after copying text"
+msgstr "复制完毕后自动取消选取"
+
+#: ../src/generalprefpage.cpp:60
+msgid "Enable Mouse Support"
+msgstr "打开鼠标支持"
+
+#: ../src/generalprefpage.cpp:66
+msgid "Show System Tray Icon (Docklet)"
+msgstr "显示系统托盘图标 (Docklet)"
+
+#: ../src/generalprefpage.cpp:71
+msgid "Show Status Bar on bottom"
+msgstr "在底部显示状态栏"
+
+#: ../src/generalprefpage.cpp:75
+msgid "Use Anti-Aliasing Fonts (Take effect after restart)"
+msgstr "显示字型使用反锯齿 (重启程序后才有效)"
+
+#: ../src/generalprefpage.cpp:80
+msgid "Use \"wget\" to download files."
+msgstr "使用“wget”下载文件。"
+
+#: ../src/generalprefpage.cpp:89
+msgid "Display popup notifier for "
+msgstr "消息弹出提醒，显示"
+
+#: ../src/generalprefpage.cpp:98
+msgid "seconds"
+msgstr "秒"
+
+#: ../src/generalprefpage.cpp:102
+msgid "Display IP notifier"
+msgstr "用消息弹出提醒显示IP查询结果"
+
+#: ../src/generalprefpage.cpp:110
+msgid "Web Browser: "
+msgstr "网页浏览器："
+
+#: ../src/generalprefpage.cpp:121
+msgid "Mail Client: "
+msgstr "邮件客户端："
+
+#: ../src/generalprefpage.cpp:134
+msgid "Image Viewer: "
+msgstr "图片浏览器："
+
+#: ../src/view/telnetview.cpp:428 ../src/view/telnetview.cpp:433
+msgid "Detected IP address:"
+msgstr "检测到的IP地址："
+
+#: ../src/view/telnetview.cpp:434
+msgid "Download qqwry.dat to get IP location lookup"
+msgstr "请下载qqwry.dat以使用IP地址查询"
+
+#: ../src/view/telnetview.cpp:713
+msgid "_Copy URL to Clipboard"
+msgstr "复制网址到剪贴板(_C)"
+
+#: ../src/view/telnetview.cpp:753
+msgid "Input _Methods"
+msgstr "输入法(_M)"
+
+#: ../src/emoticondlg.cpp:27
+msgid "Emoticons"
+msgstr "表情符号"
+
+#: ../src/emoticondlg.cpp:29
+msgid "Send"
+msgstr "发送"
+
+#: ../src/emoticondlg.cpp:138
+msgid "New Emoticon"
+msgstr "新增表情符号"
+
+#: ../src/emoticondlg.cpp:138 ../src/emoticondlg.cpp:155
+msgid "Input New Emoticon"
+msgstr "输入新的表情符号"
+
+#: ../src/emoticondlg.cpp:155
+msgid "Edit Emoticon"
+msgstr "编辑表情符号"
+
+#: ../src/autologinpage.cpp:40
+msgid "Prelogin Prompt: "
+msgstr "登录前的提示："
+
+#: ../src/autologinpage.cpp:49
+msgid "Prelogin String: "
+msgstr "登录前的字串："
+
+#: ../src/autologinpage.cpp:62
+msgid "Login Prompt: "
+msgstr "登录提示："
+
+#: ../src/autologinpage.cpp:71
+msgid "User Name:"
+msgstr "帐号："
+
+#: ../src/autologinpage.cpp:84
+msgid "Password Prompt: "
+msgstr "密码提示："
+
+#: ../src/autologinpage.cpp:93
+msgid "Password: "
+msgstr "密码: "
+
+#: ../src/autologinpage.cpp:106
+msgid "Post Login String: "
+msgstr "登录后发送的字串: "
+
+#: ../src/autologinpage.cpp:114
+msgid ""
+"<big>WARNING:</big> Your password will be stored in <u>plain text</u> "
+"without any encryption.  Use this at your own risk.  Although UNIX-like "
+"systems all have file permissions, there is no guarantee that others won't "
+"get your password."
+msgstr ""
+"<big>警告：</big> 你的密码将已<u>明码形式</u>存储，并不会有任何加密处理，请小"
+"心使用。虽然类 UNIX 系统有权限的保护措施，但是不能保证你的密码不被别人得到。"
+
+#: ../src/downarticledlg.cpp:41
+msgid "Downloading ..."
+msgstr "下载中 ..."
+
+#: ../src/downarticledlg.cpp:322
+msgid "Save As"
+msgstr "另存为"
+
+#: ../src/downarticledlg.cpp:356
+#, c-format
+msgid "Error saving file '%s': %s"
+msgstr "保存文件'%s‘出错：%s"
+
+#: ../src/gemanx_gtk2.cpp:161
+msgid ""
+"Version mismatch between gemanx and libgemanx-core.\n"
+"\n"
+"Please check your installation."
+msgstr ""
+"gemanx 与 libgemanx-core 版本不匹配。\n"
+"\n"
+"请检查你的安装。"

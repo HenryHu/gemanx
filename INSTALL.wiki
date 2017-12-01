@@ -1,0 +1,118 @@
+#labels Phase-Deploy,Featured
+How to configure, build and install gemanx
+
+= Introduction =
+
+It is easy to build gemanx.
+
+You may use a released version, or use the SVN version.
+
+= Details =
+
+*If you are using the SVN version:*
+
+First do SVN checkout:
+
+_svn checkout http://gemanx.googlecode.com/svn/trunk/ gemanx_
+
+And then run autogen.sh inside it
+
+_cd gemanx_
+
+_./autogen.sh_
+
+To run autogen.sh, you need several tools:
+
+automake
+autoconf
+libtool
+...
+
+Then the configure would be generated.
+
+*If you are using the released version:*
+
+Download the latest version from the "Downloads" tab, and then extract it into a folder:
+
+_tar -xvf gemanx-gtk2-`*`.tar.gz_
+
+_cd gemanx-gtk2-`<`VERSION`>`_
+
+And run configure.
+
+*Configure the project*
+
+To run configure:
+
+_./configure_
+
+There are many options. By default, many of them are disabled. You may enable them:
+
+_./configure --enable-libnotify --enable-wget --enable-iplookup --enable-imageview --enable-proxy_
+
+If you are a Linux user, you may add *--prefix=/usr*, if you want gemanx to be installed in /usr and not /usr/local.
+
+Detailed configure options list:
+  *  --disable-nls
+           do not use Native Language Support, so you do not have translations, etc...
+  *  --enable-debug
+          enable Debug (default: no)
+  *  --disable-docklet
+       disable docklet / system tray support, enabled by default
+  *  --disable-notifier
+      disable popup notifier support, if you have libnotify you may disable this, enabled by default
+  *  *--enable-libnotify*
+      enable popup notifier support by libnotify. Notifications look much better in some systems with this option. *If you enable this, you need to install libnotify.*
+  *  --disable-nancy
+         disable nancy bot support, enabled by default
+  *  --disable-mouse
+         disable mouse click and wheel support, enabled by default
+  *  --disable-external
+      disable external SSH/Telnet support, enabled by default
+  *  --enable-wget
+           enable wget support, so we use wget to download images for viewing. *You need to install wget.*
+  *  *--enable-iplookup*
+       enable IP location lookup. For Simplified Chinese users. Need qqwry.dat. *Please see the IPLOOKUP section for details.*
+  *  *--enable-imageview*
+      enable external image viewer. *Please see IMAGEVIEW section for details.*
+  *  --enable-proxy
+          enable proxy support, disabled by default.
+
+* Build the project *
+
+After configuring the project, you may build the project.
+Just run
+
+_make_
+
+in the project folder. If your make is not GNU make, you may run
+
+_gmake_
+
+* Install the program *
+
+Just run
+
+_make install_
+
+And if you are not root, you may run
+
+_sudo make install_
+
+The program will be installed. Enjoy BBSing with gemanx!
+
+* IPLOOKUP *
+
+If you enable this feature, you can see the location of the poster when you move your mouse pointer over the IP address.
+
+You need to download *qqwry.dat* and put it into *~/.gemanx*
+
+For how to download it, just search "qqwry.dat download" with Google.
+
+* IMAGEVIEW *
+
+If you enable this feature, your external image viewer will be called after you clicking on an image link.
+
+We will fetch the link first with libcurl, and use libmagic to test if it is an image file. If it is, we run the external image viewer specified in "Preference" to view the image.
+
+So you need to install *libmagic* or *file-devel* for this feature to work. You also need to install *libcurl* or *curl-devel* for this feature to work.
