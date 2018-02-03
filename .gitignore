@@ -33,3 +33,4 @@ gemanx.desktop
 gemanx-gtk2.spec
 src/gemanx
 po/POTFILES
+Doxygen
