@@ -1074,12 +1074,12 @@ static string GetChangedAttrStr(CTermCharAttr oldattr, CTermCharAttr newattr)
 		text += "7;";
 	if( reset || newattr.GetBackground() != oldattr.GetBackground())	// If reset or color changed.
 	{
-		char color[] = {'4', ('0'+ newattr.GetBackground()), ';', '\0' };
+		char color[] = {'4', static_cast<char>('0'+ newattr.GetBackground()), ';', '\0' };
 		text += color;
 	}
 	if( reset || newattr.GetForeground() != oldattr.GetForeground() )
 	{
-		char color[] = {'3', ('0' + newattr.GetForeground()), ';', '\0' };
+		char color[] = {'3', static_cast<char>('0' + newattr.GetForeground()), ';', '\0' };
 		text += color;
 	}
 	if( ';' == text[ text.length()-1 ] )	// Don't worry about access violation because text.Len() always > 1.

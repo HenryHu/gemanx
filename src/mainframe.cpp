@@ -179,7 +179,7 @@ CMainFrame::CMainFrame()
 	LoadIcons();
 
 
-	gtk_window_set_title (GTK_WINDOW (m_Widget), "GeMan X "VERSION );
+	gtk_window_set_title (GTK_WINDOW (m_Widget), "GeMan X " VERSION );
 
 	m_pNotebook = new CNotebook();
 	gtk_notebook_set_scrollable(GTK_NOTEBOOK(m_pNotebook->m_Widget), TRUE);
@@ -1541,7 +1541,7 @@ void CMainFrame::SetCurView(CTelnetView* view)
 	m_pView = view;
 	if( !m_pView || !m_pView->GetCon() )
 	{
-		gtk_window_set_title (GTK_WINDOW (m_Widget), "GeMan X "VERSION );
+		gtk_window_set_title (GTK_WINDOW (m_Widget), "GeMan X " VERSION );
 		gtk_entry_set_text( GTK_ENTRY(m_URLEntry), "");
 		return;
 	}
@@ -1554,7 +1554,7 @@ void CMainFrame::SetCurView(CTelnetView* view)
 	if( ! con->IsClosed() )
 		m_pNotebook->SetPageTitle( m_pView, title );
 
-	title += " - GeMan X "VERSION;
+	title += " - GeMan X " VERSION;
 	gtk_window_set_title (GTK_WINDOW (m_Widget), title.c_str() );
 
 	char time_str[100];

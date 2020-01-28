@@ -478,7 +478,7 @@ void CTelnetCon::ParseTelnetCommand()
 		{
 			if( 3 > (m_pCmdLine-m_CmdLine) )
 				return;
-			char ret[]={TC_IAC,TC_DONT,*m_pBuf};
+			unsigned char ret[]={TC_IAC,TC_DONT,*m_pBuf};
 			switch(*m_pBuf)
 			{
 			case TO_ECHO:
@@ -493,7 +493,7 @@ void CTelnetCon::ParseTelnetCommand()
 		{
 			if( 3 > (m_pCmdLine-m_CmdLine) )
 				return;
-			char ret[]={TC_IAC,TC_WILL,*m_pBuf};
+			unsigned char ret[]={TC_IAC,TC_WILL,*m_pBuf};
 			switch(*m_pBuf)
 			{
 			case TO_TERMINAL_TYPE:
@@ -510,7 +510,7 @@ void CTelnetCon::ParseTelnetCommand()
 				naws[4] = m_ColsPerPage & 0xff; // lower byte
 				naws[5] = m_RowsPerPage >> 8;	// higher byte
 				naws[6] = m_RowsPerPage & 0xff; // lower byte
-				SendRawString( (const char*)naws,sizeof(naws));
+				SendRawString(naws,sizeof(naws));
 			}
 			break;
 		}
@@ -534,7 +534,7 @@ void CTelnetCon::ParseTelnetCommand()
 					memcpy( ret, ret_head, 4);
 					memcpy( ret + 4, m_Site.m_TermType.c_str(), m_Site.m_TermType.length() );
 					memcpy( ret + 4 + m_Site.m_TermType.length() , ret_tail, 2);
-					SendRawString( (const char*)ret, ret_len);
+					SendRawString(ret, ret_len);
 					delete []ret;
 				}
 			}
@@ -571,7 +571,7 @@ void CTelnetCon::OnTimer()
 		//	2004.8.5 Added by PCMan.	Convert non-printable control characters.
 		INFO("AntiIdle: %s", m_Site.m_AntiIdleStr.c_str() );
 		string aistr = UnEscapeStr( m_Site.m_AntiIdleStr.c_str() );
-		SendRawString( aistr.c_str(), aistr.length() );
+		SendRawString((const unsigned char*) aistr.c_str(), aistr.length() );
 	}
 	//	When SendSRawtring() is called, m_IdleTime is set to 0 automatically.
 }
@@ -700,7 +700,7 @@ void CTelnetCon::SendString(string str)
 	gchar* _text = my_convert(str2.c_str(), str2.length(), m_Site.m_Encoding.c_str(), "UTF-8", &l);
 	if( _text )
 	{
-		SendRawString(_text, strlen(_text));
+		SendRawString((const unsigned char*)_text, strlen(_text));
 		g_free(_text);
 	}
 }

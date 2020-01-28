@@ -123,7 +123,8 @@ public:
 	// Parse telnet command.
 	inline void ParseTelnetCommand();
 
-	void SendRawString(const char* pdata, int len)	{	Send( (void*)pdata, len);	}
+	void SendRawString(unsigned const char* pdata, int len)	{	Send( (void*)pdata, len);	}
+	void SendRawString(const char* pdata, int len)	{	SendRawString((unsigned const char*)pdata, len); }
 	void SendUnEscapedString(string str);
 	void SendString(string str);
  	
