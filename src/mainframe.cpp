@@ -701,7 +701,7 @@ void CMainFrame::OnFont(GtkMenuItem* mitem UNUSED, CMainFrame* _this)
         int nowFontSize = (_this->GetCurView() != NULL) ?
             (int)(_this->GetCurView()->GetFontNow()->GetFontSize()) :
             AppConfig.FontSize;
-        fprintf(stderr, "size: %d\n", nowFontSize);
+        DEBUG("size: %d\n", nowFontSize);
 	sprintf( pango_font_name, "%s %d", AppConfig.FontFamily.c_str(), (nowFontSize > 2 && nowFontSize <= 72) ?  nowFontSize : 12 );
 	gtk_font_selection_dialog_set_font_name(fsdlg, pango_font_name);
 
